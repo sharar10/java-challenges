@@ -2,9 +2,9 @@ package com.sharar.mathfunctions;
 
 
 public class Series {
-    public int nSum(int n) {
+    public long nSum(int n) {
         int i = 0;
-        int sum = 0;
+        long sum = 0;
         while (i <= n) {
             sum += i;
             i++;
@@ -12,9 +12,9 @@ public class Series {
         return sum;
     }
 
-    public int factorial(int n) {
+    public long factorial(int n) {
         int i = 1;
-        int returned = 1;
+        long returned = 1;
         if (n == 1) {
             return 1;
         } else {
@@ -26,16 +26,16 @@ public class Series {
         return returned;
     }
 
-    public int fibonacci(int n) {
-        int returned = 0;
+    public long fibonacci(int n) {
+        long returned = 0;
         if (n == 0) {
             return 0;
         } else if (n == 1) {
             return 1;
         } else {
-            int previous = 1;
-            int secondPrevious = 0;
-            int i = 2;
+            long previous = 1;
+            long secondPrevious = 0;
+            long i = 2;
             while (i <= n) {
                 returned = previous + secondPrevious;
                 secondPrevious = previous;

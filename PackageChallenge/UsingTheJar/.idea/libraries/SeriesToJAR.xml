@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="SeriesToJAR">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../PackageChallenge/SeriesToJAR/out/artifacts/SeriesToJAR_jar/SeriesToJAR.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SeriesToJAR/out/artifacts/SeriesToJAR_jar/SeriesToJAR.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
